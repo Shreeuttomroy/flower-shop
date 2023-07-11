@@ -7,6 +7,10 @@
 body{
     width: 100vw;
     overflow-x: hidden;
+    font-size: 16px;
+}
+.color-primary{
+    color: #E55473;
 }
 .btn-primary{
     background-color: #E55473;
@@ -16,7 +20,13 @@ body{
     border: none;
     border-radius: 5px;
 }
-
+footer,main {
+    width: 100%;
+}
+.common-width{
+    width: 1000px;
+    margin: 100px auto;
+}
 /* banner section  */
 .web-banner{
     background-color: #e554731c;
@@ -42,3 +52,154 @@ body{
 .web-banner>.banner-text>p{
     margin: 10px 0;
 }
+
+ /* features section  */
+.features{
+    text-align: center;
+}
+.features>.feature-text{
+    margin: 20px auto;
+    width: 500px;
+}
+.features>.feature-text>h2{
+    margin: 20px 0;
+}
+.features>.feature-flowers{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.flower-1,.flower-2,.flower-3 {
+    width: 300px;
+    height: 400px;
+    border: none;
+}
+.flower-1>img,.flower-2>img,.flower-3>img {
+    width: 300px;
+    padding:20px 50px 0 50px;
+    height: 300px;
+    border-radius: 200px 200px 10px 10px;
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    background-color: #E55473;
+}
+.flower-1>img{
+    background-color: #a721624b;
+}
+.flower-2>img{
+    background-color: #0598a048;
+}
+.flower-3>img{
+    background-color: #477d113d;
+}
+.feature-flowers a{
+    color: black;
+}
+
+/* services section */
+.services{
+    background-color: #0000000e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px 70px;
+}
+.services1,.services2,.services3 {
+    width: 200px;
+    height: 120px;
+    /* margin-left: ; */
+    font-weight:600;
+}
+
+/* offers section */
+.offers{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #e5547318;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.offers>.offer-desc{
+    height: 200px;
+    width: 500px;
+}
+.offers>img{
+    width: 200px;
+    height: 200px;
+}
+.offer-desc>h2{
+    font-size: 35px;
+    margin: 20px;
+}
+.offer-desc>p{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+/* instagram section */
+.instagram{
+    height: 500px;
+    text-align: center;
+}
+.instagram>.ins-desc{
+    width: 400px;
+    margin: 30px auto;
+}
+.ins-flowers{
+    display: flex;
+    justify-content: space-between;
+}
+.ins-flowers>img{
+    width: 240px;
+    height: 300px;
+}
+.ins-desc>h2{
+    margin: 10px 0;
+}
+
+/* subcribe section */
+.subcribe-box{
+    text-align: center;
+    background-image: url('../assets/su-bg-flower.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-clip: cover; */
+    height: 400px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.subcribe-box>.content{
+    height: 200px;
+    width: 800px;
+}
+.content>h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content>.mail-box{
+    height: 20px;
+    width: 400px;
+    padding: 23px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer section  */
+footer{
+    display: flex;
+    height: 400px;
+    background-color: #111010;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
