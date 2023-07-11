@@ -7,7 +7,8 @@
 body{
     width: 100vw;
     overflow-x: hidden;
-    font-size: 16px;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .color-primary{
     color: #E55473;
@@ -36,7 +37,7 @@ footer,main {
     justify-content: space-around;
 }
 .web-banner>.banner-text,.banner-img {
-    width: 400px;
+    width: 500px;
 }
 .web-banner>.banner-text{
     align-self: center;
@@ -160,6 +161,30 @@ footer,main {
 .ins-desc>h2{
     margin: 10px 0;
 }
+
+/* popular section  */
+.popular-box{
+    height: 430px;
+    display: block;
+    text-align: center;
+}
+.popular-box>.p-flowers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.popular-box>h2{
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.popular-box>.p-flowers>img{
+    width: 300px;
+    height: 300px;
+}
+.popular-box>.p-flowers>.bg{
+    background-color: rgba(84, 117, 117, 0.555);
+}
+
 
 /* subcribe section */
 .subcribe-box{
